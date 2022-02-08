@@ -1,4 +1,4 @@
-FROM node
+FROM node:7.0
 LABEL maintainer ian.miell@gmail.com
 RUN git clone https://github.com/docker-in-practice/todo.git
 WORKDIR todo
